@@ -12,7 +12,7 @@ public class opdr42 extends Applet{
             public void paint(Graphics g) {
                 setBackground(Color.lightGray);
 
-                    //de driehoek van de vorige opdracht besloot ik als het dak van het huis te gebruiken.
+                    //de triangle van de last subject is used for the house.
                         g.setColor(Color.black);
                     g.drawLine(100, 150, 150, 50);
                     g.drawLine(200, 150, 150, 50);
@@ -20,7 +20,7 @@ public class opdr42 extends Applet{
                         g.setColor(Color.cyan);
                     g.fillRect(100, 150, 100 ,100);
 
-                    // het vierkant stelt het huis voor
+                    // the square resembles the house.
                         g.setColor(Color.red);
                     g.drawLine(100, 150, 100, 250);
                     g.drawLine(200, 150, 200, 250);
