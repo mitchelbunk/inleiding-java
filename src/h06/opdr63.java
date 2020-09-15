@@ -15,6 +15,6 @@ public class opdr63 extends Applet {
 
     public void paint(Graphics g) {
         g.drawString("negatief getal" + uitkomst, 20, 20);
-        // ok het is nu duidelijk voor mij wat er gebeurd als ik bij int hoger ga dan het limiet.
+        // ok het is nu duidelijk voor mij wat er gebeurd als ik bij int hoger ga dan het limiet
     }
 }
