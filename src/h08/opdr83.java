@@ -14,11 +14,8 @@ public class opdr83 extends Applet {
 
     Label PrijsInclusiefBTW;
 
-    double prijs;
-
     double btw;
 
-    double bedragMetBTW;
 
 
 
@@ -39,11 +36,9 @@ public class opdr83 extends Applet {
 
         setBackground(Color.black);
 
-        prijs = 10;
 
         btw = 1.21;
 
-        bedragMetBTW = prijs * btw;
 
     }
 
@@ -64,12 +59,15 @@ public class opdr83 extends Applet {
         public void actionPerformed(ActionEvent e) {
 
             String message = prijsvakje.getText();
-            rekenknop.setLabel("reken uit");
-            PrijsInclusiefBTW.setText(message);
+            double bedragbtw = Double.parseDouble(message);
+            bedragbtw *= btw;
+            PrijsInclusiefBTW.setText(bedragbtw + "");
+
 
             repaint();
 
 
         }
+
     }
 }
