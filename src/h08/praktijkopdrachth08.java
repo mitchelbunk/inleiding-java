@@ -10,7 +10,7 @@ import java.awt.event.ActionListener;
 public class praktijkopdrachth08 extends Applet
 {
     TextField invoervakje1, invoervakje2, uitkomst;
-    Button maal, plus, delen, aftrekken;
+    Button keer, plus, delen, aftrekken;
     double invoergetal1, invoergetal2, resultaatgetal;
 
     public void init()
@@ -20,8 +20,8 @@ public class praktijkopdrachth08 extends Applet
         invoervakje2 = new TextField( 10 );
         uitkomst = new TextField( 10 );
 
-        maal = new Button("x");
-        maal.addActionListener(new maalHandler());
+        keer = new Button("x");
+        keer.addActionListener(new maalHandler());
 
         plus = new Button("+");
         plus.addActionListener(new plusHandler());
@@ -34,7 +34,7 @@ public class praktijkopdrachth08 extends Applet
 
         add( invoervakje1 );
         add( invoervakje2 );
-        add( maal );
+        add( keer );
         add( plus );
         add( delen );
         add( aftrekken );
