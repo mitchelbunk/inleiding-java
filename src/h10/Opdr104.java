@@ -8,16 +8,18 @@ public class Opdr104 extends Applet {
     TextField tekstvakje1, tekstvakje2;
     Label label1;
     String s, tekst1, tekst2, tekst3, tekst4, tekst5;
-    int dag, jaartal;
+    int maandNummer, jaartal;
 
     public void init() {
         tekstvakje1 = new TextField("", 40);
         tekstvakje1.addActionListener( new case1Listener());
+        repaint();
 
-        label1 = new Label("Type het maandnummer in de bovenste en het jaartal in de onderste");
+        label1 = new Label("Type eerts het jaar onderin in en dan het maandnummer bovenin");
 
         tekstvakje2 = new TextField("", 40);
         tekstvakje2.addActionListener( new case2Listener());
+        repaint();
 
 
         tekst1 = "";
@@ -53,22 +55,45 @@ public class Opdr104 extends Applet {
 
 
     }
+    class case2Listener implements ActionListener {
+        public void actionPerformed(ActionEvent e) {
+            s = tekstvakje2.getText();
+            jaartal = Integer.parseInt( s);
+
+            if ((jaartal % 4 == 0 && (!(jaartal % 100 == 0)) ||
+                    jaartal % 400 == 0)) {
+                tekst4 = "" + jaartal + "is een schrikkeljaar";
+            }
+            else {
+                tekst4 = ""+ jaartal + " is geen schrikkeljaar";
+            }
+
+            repaint();
+        }
+
+    }
 
     class case1Listener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             s = tekstvakje1.getText();
-            dag = Integer.parseInt(s);
+            maandNummer = Integer.parseInt(s);
 
 
-            switch (dag) {
+            switch (maandNummer) {
                 case 1:
                     tekst1 = "Januari";
                     tekst2 = "31 dagen";
                     break;
                 case 2:
                     tekst1 = "Februari";
-                    // hier kan de if statement
-                    tekst2 = "28 dagen";
+                    if (jaartal % 4 == 0 && (!(jaartal % 100 == 0)) ||
+                        jaartal % 400 == 0 ) {
+                    tekst2 = "29 dagen";}
+                    else {
+                        tekst2 = "28 dagen";
+                    }
+
+
                     break;
                 case 3:
                     tekst1 = "Maart";
@@ -114,7 +139,6 @@ public class Opdr104 extends Applet {
                     tekst3 = "terug naar de basisschool YEEEEEEEEEEEEEET";
                     break;
 
-
             }
             repaint();
         }
@@ -122,23 +146,7 @@ public class Opdr104 extends Applet {
 
 
         }
-        class case2Listener implements ActionListener {
-            public void actionPerformed(ActionEvent e) {
-                s = tekstvakje2.getText();
-                jaartal = Integer.parseInt( s);
 
-                if ((jaartal % 4 == 0 && (!(jaartal % 100 == 0)) ||
-                        jaartal % 400 == 0)) {
-                    tekst4 = "" + jaartal + "is een schrikkeljaar";
-                }
-                else {
-                    tekst4 = ""+ jaartal + " is geen schrikkeljaar";
-                }
-
-                repaint();
-            }
-
-        }
 
 }
 
