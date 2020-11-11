@@ -15,6 +15,8 @@ public class Fibbonacci extends Applet {
 
     public void paint(Graphics g) {
 
+
+
         g.drawString("" + 1, 50, 50);
         g.drawString("" + 1, 50, 75);
 
@@ -32,4 +34,7 @@ public class Fibbonacci extends Applet {
 
 
     }
+// grappig weetje, als je de windows size vergroot of verkleint, rekent het programma door met de vorige for loop waarden van A en B
+
+
 }
