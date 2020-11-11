@@ -1,6 +1,8 @@
 package H12;
 
-import java.applet.*;
+import javafx.scene.text.Text;
+
+import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -21,7 +23,7 @@ public class Opdr124 extends Applet {
 
         tekstvak = new TextField();
         add(tekstvak);
-        tekstvak.addActionListener(new TekstvakListener());
+        tekstvak.addActionListener(new KnopListener());
 
         knop = new Button("ok");
         add(knop);
@@ -57,6 +59,13 @@ public class Opdr124 extends Applet {
 
     @Override
     public void paint(Graphics g) {
+        setBackground(new Color(0x4B8D45));
+
+        tekstvak.setLocation(200, 50);
+        tekstvak.setSize(100, 100);
+
+        knop.setSize(50, 25);
+
         if (gevonden = true) {
             g.drawString("De waarde is gevonden.", 20, 50);
         }
@@ -64,15 +73,13 @@ public class Opdr124 extends Applet {
             g.drawString("De waarde is niet gevonden.", 20, 50);
         }
 
+        setSize(500, 500);
+
     }
-    class TekstvakListener implements ActionListener{
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            String message = tekstvak.getText();
-                    double gevonden = Double.parseDouble(message);
-        }
     }
     class KnopListener implements ActionListener {
+        private Text tekstvak;
+
         @Override
         public void actionPerformed(ActionEvent e) {
             String s = tekstvak.getText();
@@ -80,4 +87,3 @@ public class Opdr124 extends Applet {
 
         }
     }
-}
