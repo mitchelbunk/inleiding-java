@@ -15,7 +15,7 @@ public class Fibbonacci extends Applet {
 
     public void paint(Graphics g) {
 
-
+       setMaximumSize(100, 100, 100, 100);
 
         g.drawString("" + 1, 50, 50);
         g.drawString("" + 1, 50, 75);
@@ -36,5 +36,6 @@ public class Fibbonacci extends Applet {
     }
 // grappig weetje, als je de windows size vergroot of verkleint, rekent het programma door met de vorige for loop waarden van A en B
 
-
+    private void setMaximumSize(int i, int i1, int i2, int i3) {
+    }
 }
