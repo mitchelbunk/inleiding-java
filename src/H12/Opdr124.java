@@ -1,7 +1,5 @@
 package H12;
 
-import javafx.scene.text.Text;
-
 import java.applet.Applet;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -10,12 +8,12 @@ import java.awt.event.ActionListener;
 // Zoeken in een tabel
 
 public class Opdr124 extends Applet {
-    boolean gevonden, einde;
-    double[] salaris = { 100.0, 200.0, 500.0, 400.0, 300.0 };
+    boolean gevonden;
+    double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0};
+    int getal;
     double gezocht;
     TextField tekstvak;
     Button knop;
-
 
 
     @Override
@@ -37,19 +35,9 @@ public class Opdr124 extends Applet {
         // toString(gezocht)
 
 
-
-
-        gezocht = 600;
         gevonden = false;
-        einde = false;
-        int teller = 0;
 
-        while (teller < salaris.length) {
-            if (salaris[teller] == gezocht){
-                gevonden = true;
-            }
-            teller++;
-        }
+
         // voor 12.5
 
         // vervangen met eindige loop zoals
@@ -62,28 +50,40 @@ public class Opdr124 extends Applet {
         setBackground(new Color(0x4B8D45));
 
         tekstvak.setLocation(200, 50);
-        tekstvak.setSize(100, 100);
+        tekstvak.setSize(100, 20);
 
         knop.setSize(50, 25);
 
-        if (gevonden = true) {
-            g.drawString("De waarde is gevonden.", 20, 50);
-        }
-        else {
+        if (gevonden == true) {
+            g.drawString("De waarde is gevonden. " + getal, 20, 50);
+        } else {
             g.drawString("De waarde is niet gevonden.", 20, 50);
         }
 
         setSize(500, 500);
 
     }
-    }
+
     class KnopListener implements ActionListener {
-        private Text tekstvak;
+
 
         @Override
         public void actionPerformed(ActionEvent e) {
             String s = tekstvak.getText();
             double gezocht = Double.parseDouble(s);
+            gevonden = false;
 
+            int teller = 0;
+            while (teller < salaris.length) {
+
+                if (salaris[teller] == gezocht) {
+                    getal = teller;
+                    gevonden = true;
+                }
+                teller++;
+            }
+    repaint();
         }
     }
+
+}
