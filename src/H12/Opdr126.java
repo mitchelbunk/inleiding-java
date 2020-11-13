@@ -5,11 +5,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Opdr125 extends Applet {
+public class Opdr126 extends Applet {
     boolean gevonden;
-    double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0, 500.0};
+    double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0, 300.0, 500.0};
     int getal;
-    double gezocht;
+    int aantalGevonden;
     TextField tekstvak1;
     Button knop;
 
@@ -39,6 +39,7 @@ public class Opdr125 extends Applet {
 
         if (gevonden == true) {
             g.drawString("De waarde is gevonden. " + getal, 20, 50);
+            g.drawString("Aantal: " + aantalGevonden, 20, 100);
         } else {
             g.drawString("De waarde is niet gevonden.", 20, 50);
         }
@@ -54,20 +55,23 @@ public class Opdr125 extends Applet {
             gevonden = false;
 
             int teller = 0;
+            aantalGevonden = 0;
             while (teller < salaris.length) {
 
                 if (salaris[teller] == gezocht) {
                     getal = teller;
                     gevonden = true;
-                    break;
+                    aantalGevonden++;
                 }
                 teller++;
             }
             repaint();
 
 
-
+            System.out.println(aantalGevonden);
         }
+
+
     }
 
 }
