@@ -8,6 +8,7 @@ import java.awt.event.ActionListener;
 public class PraktijkOpdrachtH12 extends Applet {
     String [] nummers;
     String [] namen;
+    TextField tekstvak;
     TextField tekstvak1;
     TextField tekstvak2;
     Button knop;
@@ -43,8 +44,9 @@ public class PraktijkOpdrachtH12 extends Applet {
     }
     class KnopListener implements ActionListener{
         public void actionPerformed(ActionEvent e) {
-            namen[teller] = tekstvak1;
-            nummers[teller] = tekstvak2;
+
+            namen[teller] = tekstvak.getText(tekstvak1);
+            nummers[teller] = tekstvak.getText(tekstvak2);
             teller++;
         }
     }
