@@ -6,53 +6,75 @@ import java.awt.event.*;
 
 
 public class PraktijkOpdrachtH12 extends Applet {
-    String [] nummers;
-    String [] namen;
-    TextField tekstvak1;
-    TextField tekstvak2;
-    Button knop;
+    String [] telefoonnummer;
+    String [] naam;
+    TextField naamvak;
+    TextField nummervak;
+    Button knop, overzichtKnop;
+    int teller;
 
 
 
-    @Override
+
+
     public void init() {
-
-
-
-
-
         knop = new Button("OK");
         add(knop);
-        knop.addActionListener(new KnopListener());
+        knop.addActionListener(new KnopListener1());
 
-        tekstvak1 = new TextField("", 20);
-        add(tekstvak1);
+        overzichtKnop = new Button("telefoonlijst");
+        add(overzichtKnop);
+        overzichtKnop.addActionListener(new KnopListener2());
+
+        naamvak = new TextField("", 20);
+        add(naamvak);
 
 
-        tekstvak2 = new TextField("", 20);
-        add(tekstvak2);
+        nummervak = new TextField("", 20);
+        add(nummervak);
+
+
+        naam = new String[10];
+
+        telefoonnummer = new String[10];
+
+        teller = 0;
 
 
     }
 
-    @Override
+
     public void paint(Graphics g) {
-        g.drawString("voer een telefoonnummer en naam in en druk op OK", 50, 25);
+        g.drawString("voer een naam en telefoonnummer in en druk op OK", 50, 25);
         knop.setLocation(150, 50);
-        tekstvak1.setLocation(50, 100);
-        tekstvak2.setLocation(50, 250);
+        naamvak.setLocation(50, 100);
+        nummervak.setLocation(250, 100);
+
+        setSize(500, 600);
+        for (int teller = 0; teller < naam.length; teller++) {
+
+
+        }
+
+
     }
 
-    class KnopListener implements ActionListener{
+    class KnopListener1 implements ActionListener{
         public void actionPerformed( ActionEvent e) {
-            for (int teller = 0; teller < 9; teller++) {
+          //  for (int teller = 0; teller < 9; teller++) {
 
+                 naam[teller] = naamvak.getText();
+                telefoonnummer[teller] = nummervak.getText();
+                System.out.println(naam[teller]);
+          //  }
+        }
+    }
+    class KnopListener2 implements ActionListener{
+        public void actionPerformed(ActionEvent e) {
+        //print array via loop
 
-                namen[teller] = tekstvak1.getText();
-                nummers[teller] = tekstvak2.getText();
-
-                System.out.println(teller);
-            }
+            //for 0-9
+            //prntln naam lcatie 50,100+25xteller; print nummer locatie 250,100+25xteller
         }
     }
 }
