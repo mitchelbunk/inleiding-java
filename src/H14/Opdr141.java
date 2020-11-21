@@ -8,7 +8,7 @@ public class Opdr141 extends Applet {
     String[] symbolen = {"klaver", "ruiten", "schoppen", "harten"};
     String[] waarden = {"aas", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Boer", "vrouw", "Heer" };
     String s;
-    int indexSymbool, cijfer;
+    int indexSymbool, indexCijfer;
     double r;
     Button kaartenTrekker;
     Label label;
@@ -27,7 +27,7 @@ public class Opdr141 extends Applet {
         indexSymbool = (int)(r * 4);
 
         r = Math.random();
-        cijfer = (int)(r * 13);
+        indexCijfer = (int)(r * 13);
 
         kaartenTrekker = new Button("Kies een kaart");
         add(kaartenTrekker);
@@ -48,18 +48,18 @@ public class Opdr141 extends Applet {
     class CardListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            s = "Card["+ indexSymbool + "]:" + symbolen[indexSymbool] + " nummer: " + waarden[cijfer];
+            s = "Card["+ indexSymbool + "]:" + symbolen[indexSymbool] + " nummer: " + waarden[indexCijfer];
             //s = label.getText();
 
             r = Math.random();
             indexSymbool = (int)(r * 4);
 
             r = Math.random();
-            cijfer = (int)(r * 13);
+            indexCijfer = (int)(r * 13);
 
 
             System.out.println("Card["+ indexSymbool + "]:" + symbolen[indexSymbool]);
-            System.out.println(waarden[cijfer]);
+            System.out.println(waarden[indexCijfer]);
 
             repaint();
         }
