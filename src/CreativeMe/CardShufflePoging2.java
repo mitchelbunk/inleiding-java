@@ -1,131 +1,49 @@
 package CreativeMe;
 
-import javax.smartcardio.Card;
-import javax.swing.*;
+
+import java.applet.Applet;
 import java.awt.*;
-import java.awt.event.WindowAdapter;
 
-public class CardShufflePoging2 extends JFrame {
-    private Card deck[];
-    private int currentCard;
-    private JButton dealButton, shuffleButton;
-    private JTextField displayCard;
-    private JLabel status;
+public class CardShufflePoging2 extends Applet {
 
-    public DeckOfCards() {
-        super("Card Dealing Program");
+    String [][] kaartendek = new String[][]{
+            {"klaver", "schoppen", "ruiten", "harten"},
 
-        String faces[] = {"Ace","Deuce", "Three", "Four",
-                "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Jack", "Queen", "King" };
+            {"Aas", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Boer", "Vrouw", "Heer"},
 
-        String suits[] = { "Hearts", "Diamonds", "Clubs", "Spades" };
 
-        deck = new Card[52];
-        currentCard = -1;
 
-        for (int i = 0; i < deck.length; i++)
-            deck[i] = new Card( faces[i % 13], suits[i / 13]);
+    };
+     //Image afbeelding;
+     //URL pad;
+     //String [][] kaartendek;
 
-            Container c = getContentPane();
-            c.setLayout(new FlowLayout());
-
-            dealButton = new JButton("Deal card");
-            dealButton.addActionListener(new ActionListener()
-            {
-                public void actionPerformed(ActionEvent e)
-                {
-                    Card dealt = dealCard();
-
-                    if (dealt != null)
-                    {
-                        displayCard.setText(dealt.toString());
-                        status.setText("Card #: " + currentCard);
-                    }
-                    else
-                    {
-                        displayCard.setText("NO MORE CARDS TO DEAL");
-                        status.setText("Shuffle cards to continue");
-                    }
-                }
-            });
-            c.add(dealButton);
-
-            shuffleButton = new JButton("Shuffle cards");
-            shuffleButton.addActionListener(new ActionListener()
-            {
-                public void actionPerformed(ActionEvent e)
-                {
-                    displayCard.setText("SHUFFLING ...");
-                    shuffle();
-                    displayCard.setText("DECK IS SHUFFLED");
-                }
-            });
-            c.add(shuffleButton);
-
-            displayCard = new JTextField(20);
-            displayCard.setEditable(false);
-            c.add(displayCard);
-
-            status = new JLabel();
-            c.add(status);
-
-            setSize(275, 120);// set the window size
-            show();// show the window
-        }
-
-        public void shuffle()
-        {
-            currentCard = -1;
-
-            for (int i = 0; i < deck.length; i++)
-            {
-                   int j = (int) (Math.random() * 52);
-                   Card temp = deck[i];// swap
-                    deck[i] = deck[j];//the
-                    deck[j] = temp;//cards
-            }
-
-            dealButton.setEnabled(true);
-        }
-
-        public Card dealCard()
-        {
-            if (++currentCard < deck.length)
-                return deck[ currentCard];
-            else
-            {
-                dealButton.setEnabled(false);
-                return null;
-            }
-        }
-
-//        public static void main( String args[])
-//        {
-//            DeckOfCards app = new DeckOfCards();
-//
-//            app.addWindowListener(new WindowAdapter()
-//            {
-//                public void windowClosing(WindowEvent e)
-//                {
-//                    System.exit( o );
-//                }
-//            });
-//        }
+    public void init() {
+        System.out.println(kaartendek [0][1]); //geeft schoppen
+        System.out.println(kaartendek[1][1]); //geeft 2
+        System.out.println(kaartendek[1][0]); //geeft aas
+        //// ik geef het op # confused
+//        pad = afbeelding.class.getResource("/Images/");
+//        afbeelding = getImage(pad, "hahaYouLost.jpg");
+//        System.out.println(afbeelding);
+//        kaartendek = new String[13][4];
     }
-    class Card
-    {
-        private String face;
-        private String suit;
 
-        public Card(String f, String s)
-        {
-            face = f;
-            suit = s;
+
+
+    public void paint(Graphics g) {
+//        g.drawString(pad.toString(), 20, 10);
+//        g.drawImage(afbeelding, 20, 20, 400, 300, this);
+
+    }
+    public static class MultidimensionalArray  {
+        public void main (String[] args) {
+
+
+
+            //System.out.println(kaartendek[0][0]);
+            //System.out.println(kaartendek[1][2]);
         }
 
-        public String toString()
-        {
-            return face+ "of" + suit;
-        }
     }
 }
