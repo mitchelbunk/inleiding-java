@@ -7,16 +7,19 @@ import java.awt.event.*;
 public class Praktijk105 extends Applet {
     TextField tekstvak;
     Label label;
-    String s, tekst;
-    int dag;
+    String tekst;
+    int cijfer;
 
     public void init() {
+
         tekstvak = new TextField("", 20);
-        label = new Label("Type het cijfer en druk op enter");
-        tekstvak.addActionListener( new TekstvakListener());
-        tekst = "";
-        add(label);
         add(tekstvak);
+        tekst = "";
+        tekstvak.addActionListener( new TekstvakListener());
+
+
+        label = new Label("Type het cijfer en druk op enter");
+        add(label);
     }
 
     public void paint(Graphics g) {
@@ -26,9 +29,10 @@ public class Praktijk105 extends Applet {
     class TekstvakListener implements ActionListener {
         @Override
         public void actionPerformed(ActionEvent e) {
-            s = tekstvak.getText();
-            dag = Integer.parseInt( s);
-            switch (dag) {
+            String s = tekstvak.getText();
+
+            cijfer = Integer.parseInt(s);
+            switch (cijfer) {
                 case 1:
                 case 2:
                 case 3:
@@ -49,6 +53,8 @@ public class Praktijk105 extends Applet {
                 case 10:
                     tekst = "goed";
                     break;
+                default:
+                    tekst = "Ongeldig cijfer, try again";
             }
             repaint();
             }

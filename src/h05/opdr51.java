@@ -13,7 +13,7 @@ public class opdr51 extends Applet{
 
     public void init() {
         //instalisatie.
-        opvulkleur = Color.magenta;
+        opvulkleur = Color.MAGENTA;
         lijnkleur = Color.BLACK;
         breedte = 200;
         hoogte = 100;

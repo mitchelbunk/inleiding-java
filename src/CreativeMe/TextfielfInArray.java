@@ -11,7 +11,7 @@ public class TextfielfInArray {
                 new JTextField(),
                 new JTextField(10),
                 new JTextField("Hello"),
-                new JTextField("Goodbye", 20)
+                new JTextField("Goodbye", 20),
                 new JCheckBox(),
                 new JCheckBox("Working?", true)
         };
@@ -19,6 +19,6 @@ public class TextfielfInArray {
         a[3] = new JTextField("I must be going");
         ((JTextField)a[2]).setText("Greetings");
         String param;
-        param = ((JCheckBox)a[4]).paramString();
+//        param = ((JCheckBox)a[4]).paramString();
     }
 }

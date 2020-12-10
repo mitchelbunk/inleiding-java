@@ -4,7 +4,7 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class Fibbonacci extends Applet {
-    int A, B, C, teller, y, getal;
+    long A, B, C, teller, y, getal;
 
     public void init() {
         A = 1;
@@ -29,7 +29,7 @@ public class Fibbonacci extends Applet {
             B = C;
 
         y+= 25;
-            g.drawString("" + C, 50, y);
+            g.drawString("" + C, 50, (int) y);
         }
 
 

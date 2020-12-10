@@ -5,11 +5,9 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-// Zoeken in een tabel
-
 public class Opdr124 extends Applet {
     boolean gevonden;
-    double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0};
+    double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0, 500.0};
     int getal;
     double gezocht;
     TextField tekstvak;
@@ -26,22 +24,8 @@ public class Opdr124 extends Applet {
         knop = new Button("ok");
         add(knop);
         knop.addActionListener(new KnopListener());
-        /*
-        de bedoeling is: de gebruiker kan de gezochte waarde invoeren
-        bv via gettext
-
-        ff proberen hier
-        */
-        // toString(gezocht)
-
 
         gevonden = false;
-
-
-        // voor 12.5
-
-        // vervangen met eindige loop zoals
-        // for teller < salarislength--1 if  sal = gezochtF
     }
 
 
@@ -65,8 +49,6 @@ public class Opdr124 extends Applet {
     }
 
     class KnopListener implements ActionListener {
-
-
         @Override
         public void actionPerformed(ActionEvent e) {
             String s = tekstvak.getText();
@@ -79,6 +61,7 @@ public class Opdr124 extends Applet {
                 if (salaris[teller] == gezocht) {
                     getal = teller;
                     gevonden = true;
+                    break;
                 }
                 teller++;
             }

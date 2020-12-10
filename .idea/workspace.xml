@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4322bdcc-5b0e-4467-8016-eda8a1f6f7b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/ArrayEnTekstvak4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/Opdr105Renewed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/PublicA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/Schaakbord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/Schaakbordv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/Tafels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreativeMe/soortenLijnen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H12/PraktijkOpdrachtH12v3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H12/Voorbeeld121.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H12/Voorbeeld124.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H12/Voorbeeld126.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H13/H13Testfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H13/PraktijkOpdrachtH13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H14/Voorbeeld141.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/H14/Voorbeeld142.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HTML/UnderConstruction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Images/hahaYouLost.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaTests/AppletBasics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JavaTests/javaTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h01/opdr1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/opdr71.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/opdr71test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld82.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld83.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld84.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld85.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld86.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h07/voorbeeld87.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h08/Testfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h10/opdr101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h10/voorbeeld101.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h10/voorbeeld103.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h10/voorbeeld104.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/h11/Opdracht116.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/inleiding-java/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/inleiding-java/inleiding-java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/inleiding-java/out/production/inleiding-java/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/out/production/inleiding-java/out/production/inleiding-java/inleiding-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/CardShuffle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreativeMe/CardShufflePoging1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/ConcentrischeCirkels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreativeMe/ConcentrischeCirkels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/Experiment1ArrayMetKnoppen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreativeMe/Experiment1ArrayMetKnoppen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/Fibbonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreativeMe/Fibbonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/TextfieldInArrayTest3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreativeMe/TextfielfInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CreativeMe/TextfielfInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/H121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/H121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/Opdr122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/Opdr122.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/Opdr124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/Opdr124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/Opdr126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/Opdr126.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/PraktijkOpdrachtH12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/PraktijkOpdrachtH12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H12/opdr123.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H12/Opdr123.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H13/Opdr131.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H13/Opdr131.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/H13/Opdr132v2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/H13/Opdr132v2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IfElseStatements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h01/HalloRocDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h01/HalloRocDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h04/opdr41.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h04/opdr41.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h05/opdr51.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h05/opdr51.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h05/opdr52.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h05/opdr52.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h06/opdr61.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h06/opdr61.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h06/opdr62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h06/opdr62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h08/opdr81.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/opdr81.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h08/opdr83.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h08/opdr83.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/Opdr102.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/Opdr102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/Opdr104.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/Opdr104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/Praktijk105.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/Praktijk105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/PraktijkOpdrachtH10.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h10/opdr101new.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h10/Opdr101new.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h11/Opdr111.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h11/Opdr116.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/Opdr116.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/h11/PraktijkOpdrachtH11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/h11/PraktijkOpdrachtH11.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hMPMotfzXIyUdSN3VEidhuXrfr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="CreativeMe" />
+      <recent name="H13" />
+      <recent name="H12" />
+      <recent name="h11" />
+      <recent name="h10" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\code\Java1-3\inleiding-java\src\Images" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="message" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Applet.AppletBasics">
+    <configuration name="AppletBasics" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaTests.AppletBasics" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opdr101new" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h10.Opdr101new" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Opdr142" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="H14.Opdr142" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Praktijk105" type="Applet" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="h10.Praktijk105" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="opdr41" type="Applet">
+      <option name="MAIN_CLASS_NAME" value="h02.opdr2" />
+      <module name="inleiding-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UnderConstruction.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/inleiding-java/HTML/UnderConstruction.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Applet.opdr41" />
+      <item itemvalue="Applet.Opdr142" />
+      <item itemvalue="JavaScript Debug.UnderConstruction.html" />
+      <item itemvalue="Applet.Opdr101new" />
+      <item itemvalue="Applet.Praktijk105" />
+      <item itemvalue="Applet.AppletBasics" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Applet.AppletBasics" />
+        <item itemvalue="Applet.Praktijk105" />
+        <item itemvalue="Applet.Opdr101new" />
+        <item itemvalue="Applet.Opdr142" />
+        <item itemvalue="JavaScript Debug.UnderConstruction.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4322bdcc-5b0e-4467-8016-eda8a1f6f7b2" name="Default Changelist" comment="" />
+      <created>1599817942961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599817942961</updated>
+      <workItem from="1599817943985" duration="73000" />
+      <workItem from="1599829885038" duration="7351000" />
+      <workItem from="1599837303856" duration="986000" />
+      <workItem from="1599910213126" duration="8619000" />
+      <workItem from="1599986903704" duration="3617000" />
+      <workItem from="1600065214847" duration="17704000" />
+      <workItem from="1600098220810" duration="1460000" />
+      <workItem from="1600151789827" duration="15263000" />
+      <workItem from="1600179303574" duration="994000" />
+      <workItem from="1600180526944" duration="932000" />
+      <workItem from="1600181542843" duration="627000" />
+      <workItem from="1600238544598" duration="3175000" />
+      <workItem from="1600243657400" duration="17040000" />
+      <workItem from="1600265873174" duration="8537000" />
+      <workItem from="1600344442294" duration="4000" />
+      <workItem from="1600347599695" duration="1692000" />
+      <workItem from="1600413661705" duration="12815000" />
+      <workItem from="1600496098914" duration="15368000" />
+      <workItem from="1600516601217" duration="9355000" />
+      <workItem from="1600592988300" duration="11231000" />
+      <workItem from="1600670991372" duration="9634000" />
+      <workItem from="1600682308743" duration="5486000" />
+      <workItem from="1600693006872" duration="1588000" />
+      <workItem from="1600759911139" duration="1950000" />
+      <workItem from="1600769634432" duration="4758000" />
+      <workItem from="1600852668442" duration="5791000" />
+      <workItem from="1600868887668" duration="12000" />
+      <workItem from="1601119789446" duration="3470000" />
+      <workItem from="1601211378743" duration="1643000" />
+      <workItem from="1601361576470" duration="3006000" />
+      <workItem from="1601448673690" duration="5619000" />
+      <workItem from="1601474320004" duration="95000" />
+      <workItem from="1601495738820" duration="3000" />
+      <workItem from="1601532476305" duration="5434000" />
+      <workItem from="1601623261894" duration="4444000" />
+      <workItem from="1601733717159" duration="939000" />
+      <workItem from="1601806898419" duration="2525000" />
+      <workItem from="1601896258367" duration="10922000" />
+      <workItem from="1601968330670" duration="5623000" />
+      <workItem from="1601982864727" duration="5190000" />
+      <workItem from="1601988662634" duration="2699000" />
+      <workItem from="1602056656342" duration="2875000" />
+      <workItem from="1602059568623" duration="9677000" />
+      <workItem from="1602077388095" duration="1141000" />
+      <workItem from="1602143055874" duration="2188000" />
+      <workItem from="1602160332222" duration="1322000" />
+      <workItem from="1602226599007" duration="7962000" />
+      <workItem from="1602511921307" duration="37000" />
+      <workItem from="1602761347868" duration="1953000" />
+      <workItem from="1602763772739" duration="748000" />
+      <workItem from="1602765460849" duration="10397000" />
+      <workItem from="1602857726823" duration="1483000" />
+      <workItem from="1603015213188" duration="6928000" />
+      <workItem from="1603096521076" duration="10764000" />
+      <workItem from="1603180847564" duration="1499000" />
+      <workItem from="1603206367288" duration="1043000" />
+      <workItem from="1603348978919" duration="3718000" />
+      <workItem from="1603363092308" duration="1461000" />
+      <workItem from="1603364581717" duration="3453000" />
+      <workItem from="1603371858205" duration="649000" />
+      <workItem from="1603438721622" duration="5499000" />
+      <workItem from="1603450017504" duration="1854000" />
+      <workItem from="1603547593686" duration="9000" />
+      <workItem from="1603700132366" duration="6085000" />
+      <workItem from="1603710459717" duration="4907000" />
+      <workItem from="1603807496600" duration="6000" />
+      <workItem from="1603816031096" duration="321000" />
+      <workItem from="1603894002360" duration="1621000" />
+      <workItem from="1603896020529" duration="606000" />
+      <workItem from="1603957851707" duration="2763000" />
+      <workItem from="1604057470734" duration="3938000" />
+      <workItem from="1604308770284" duration="3088000" />
+      <workItem from="1604332937342" duration="648000" />
+      <workItem from="1604389720446" duration="7593000" />
+      <workItem from="1604477319950" duration="8514000" />
+      <workItem from="1604490358819" duration="3545000" />
+      <workItem from="1604562875324" duration="3868000" />
+      <workItem from="1604576545094" duration="2345000" />
+      <workItem from="1604648461745" duration="10485000" />
+      <workItem from="1604910561173" duration="6108000" />
+      <workItem from="1604995483236" duration="647000" />
+      <workItem from="1605081479818" duration="7283000" />
+      <workItem from="1605090634120" duration="2360000" />
+      <workItem from="1605100976115" duration="397000" />
+      <workItem from="1605166166926" duration="2203000" />
+      <workItem from="1605169177016" duration="5577000" />
+      <workItem from="1605177013823" duration="365000" />
+      <workItem from="1605181604289" duration="1021000" />
+      <workItem from="1605184365293" duration="616000" />
+      <workItem from="1605250071032" duration="6496000" />
+      <workItem from="1605265731131" duration="2168000" />
+      <workItem from="1605269648046" duration="4035000" />
+      <workItem from="1605512428737" duration="1288000" />
+      <workItem from="1605523096908" duration="2100000" />
+      <workItem from="1605526030134" duration="203000" />
+      <workItem from="1605614437930" duration="8689000" />
+      <workItem from="1605685624649" duration="13511000" />
+      <workItem from="1605785853762" duration="24000" />
+      <workItem from="1605786223446" duration="870000" />
+      <workItem from="1605788693377" duration="2463000" />
+      <workItem from="1605795682159" duration="1016000" />
+      <workItem from="1605859663410" duration="4749000" />
+      <workItem from="1605867085377" duration="2534000" />
+      <workItem from="1605965380321" duration="10795000" />
+      <workItem from="1606138803853" duration="1636000" />
+      <workItem from="1606217008887" duration="2591000" />
+      <workItem from="1606228251341" duration="744000" />
+      <workItem from="1606291763140" duration="983000" />
+      <workItem from="1606303095766" duration="4723000" />
+      <workItem from="1606308062158" duration="10114000" />
+      <workItem from="1606393358002" duration="3336000" />
+      <workItem from="1606462633048" duration="1383000" />
+      <workItem from="1606470106721" duration="133000" />
+      <workItem from="1606808015293" duration="132000" />
+      <workItem from="1606893414253" duration="48000" />
+      <workItem from="1606998934733" duration="1298000" />
+    </task>
+    <task id="LOCAL-00031" summary="de opdrachten waar ik aan ga werken en waar ik een goede start mee heb gemaakt">
+      <created>1602078529138</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1602078529138</updated>
+    </task>
+    <task id="LOCAL-00032" summary="tot zover is dit waar ik op ben gekomen.">
+      <created>1602248804842</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1602248804842</updated>
+    </task>
+    <task id="LOCAL-00033" summary="opdracht 10.5 eindelijk af yay">
+      <created>1603018208787</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603018208787</updated>
+    </task>
+    <task id="LOCAL-00034" summary="en hier is de praktijk opdracht. yw">
+      <created>1603022103631</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603022103631</updated>
+    </task>
+    <task id="LOCAL-00035" summary="opdr 11.1 de verticale lijnen.">
+      <created>1603111751887</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603111751887</updated>
+    </task>
+    <task id="LOCAL-00036" summary="opdr 11.2 van 11 tot 21">
+      <created>1603115687182</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603115687182</updated>
+    </task>
+    <task id="LOCAL-00037" summary="opdr 11.6 ik begin dichtbij te komen. De cirkels zitten wel dicht bij elkaar, maar ze zijn niet concentrisch">
+      <created>1603350666750</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603350666750</updated>
+    </task>
+    <task id="LOCAL-00038" summary="opdr 11.6 extra,ik heb wat zitten spelen en heb waarschijnlijk het antwoord op 11.6.">
+      <created>1603354414068</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1603354414068</updated>
+    </task>
+    <task id="LOCAL-00039" summary="11.3 Fibbonaci.">
+      <created>1603366175977</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1603366175977</updated>
+    </task>
+    <task id="LOCAL-00040" summary="11.3 tafel van 3.">
+      <created>1603367055197</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1603367055197</updated>
+    </task>
+    <task id="LOCAL-00041" summary="11.9 Schaakbord">
+      <created>1603446025689</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1603446025689</updated>
+    </task>
+    <task id="LOCAL-00042" summary="H11 Praktijkopdracht: tafels van 1 tot 'volgende hoogste getal'">
+      <created>1603702137289</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1603702137289</updated>
+    </task>
+    <task id="LOCAL-00043" summary="12.1 ik ben nu vooral de theorie en youtubefilmpjes aan het kijken die over arrays gaan maar heb wel een begin hier">
+      <created>1603816125459</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1603816125459</updated>
+    </task>
+    <task id="LOCAL-00044" summary="dit heeft niks met een opdracht te maken maar ik ahd gwn zin in dit.">
+      <created>1603895804982</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1603895804982</updated>
+    </task>
+    <task id="LOCAL-00045" summary="opdr 12.1 gemiddelde met arrays">
+      <created>1604060983219</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1604060983219</updated>
+    </task>
+    <task id="LOCAL-00046" summary="de uitkomst van voorbeeldopdracht 12.2">
+      <created>1604333022125</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1604333022125</updated>
+    </task>
+    <task id="LOCAL-00047" summary="in 12.3 is alleen in kopie de waarde van het vierde element 1000 geworden">
+      <created>1604411226945</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1604411226945</updated>
+    </task>
+    <task id="LOCAL-00048" summary="opdr 12.2 experiment 1 failed">
+      <created>1604480746870</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1604480746870</updated>
+    </task>
+    <task id="LOCAL-00049" summary="opdr 12.2 experiment 2 failed">
+      <created>1604485123861</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1604485123861</updated>
+    </task>
+    <task id="LOCAL-00050" summary="opdr 12.2 experiment 2 succeeded">
+      <created>1604487006566</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1604487006567</updated>
+    </task>
+    <task id="LOCAL-00051" summary="experiment 12.3 Failed.">
+      <created>1604491301322</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1604491301322</updated>
+    </task>
+    <task id="LOCAL-00052" summary="experiment2 12.3 Failed.">
+      <created>1604492266767</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1604492266767</updated>
+    </task>
+    <task id="LOCAL-00053" summary="experiment3 12.3: de tekstvakken zijn wel te zien maar ik ben geen steek wijzer geworden van het schrijven van de code">
+      <created>1604493731847</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1604493731847</updated>
+    </task>
+    <task id="LOCAL-00054" summary="opdr 12.3 experiment failed">
+      <created>1604653728981</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1604653728982</updated>
+    </task>
+    <task id="LOCAL-00055" summary="opdr 12.3 ascending order">
+      <created>1604927657533</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1604927657533</updated>
+    </task>
+    <task id="LOCAL-00056" summary="kleine aanpassing aan het programma">
+      <created>1605082335596</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1605082335597</updated>
+    </task>
+    <task id="LOCAL-00057" summary="kleine aanpassing aan het programma">
+      <created>1605082372139</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1605082372139</updated>
+    </task>
+    <task id="LOCAL-00058" summary="opdr 12.4 bijna klaar">
+      <created>1605092037969</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1605092037970</updated>
+    </task>
+    <task id="LOCAL-00059" summary="opdr 12.4">
+      <created>1605092996641</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1605092996642</updated>
+    </task>
+    <task id="LOCAL-00060" summary="opdr124 index zoeken">
+      <created>1605168991995</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1605168991996</updated>
+    </task>
+    <task id="LOCAL-00061" summary="opdr 125 index in array zoeken">
+      <created>1605174178119</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1605174178120</updated>
+    </task>
+    <task id="LOCAL-00062" summary="opdr 12.6">
+      <created>1605259236497</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1605259236498</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Praktijkopdracht H12 wat ik nu heb">
+      <created>1605629428202</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1605629428203</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Praktijkopdracht H12 wat ik nu heb v2">
+      <created>1605631247373</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1605631247373</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Praktijkopdracht H12 wat ik nu heb v2">
+      <created>1605632802627</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1605632802627</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Praktijkopdracht H12 flinke vooruitgang gemaakt.">
+      <created>1605702231897</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1605702231897</updated>
+    </task>
+    <task id="LOCAL-00067" summary="Opdr 13.1 een mooi begin is al een half eind">
+      <created>1605710603939</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1605710603939</updated>
+    </task>
+    <task id="LOCAL-00068" summary="Opdr 13.1 af">
+      <created>1605711947549</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1605711947549</updated>
+    </task>
+    <task id="LOCAL-00069" summary="Opdr 13.1 af kleine aanpassing">
+      <created>1605712106379</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1605712106379</updated>
+    </task>
+    <task id="LOCAL-00070" summary="Opdr132v2 bakstenen muur">
+      <created>1605868034349</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1605868034350</updated>
+    </task>
+    <task id="LOCAL-00071" summary="Opdr 141, kies een kaart">
+      <created>1605970406857</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1605970406858</updated>
+    </task>
+    <task id="LOCAL-00072" summary="Opdr 141, kies een kaart">
+      <created>1605970507676</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1605970507676</updated>
+    </task>
+    <task id="LOCAL-00073" summary="Opdr 132 betonnen muur en bakstenen muur">
+      <created>1605977995640</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1605977995640</updated>
+    </task>
+    <task id="LOCAL-00074" summary="Opdr 132 betonnen muur en bakstenen muur">
+      <created>1605978036697</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1605978036697</updated>
+    </task>
+    <task id="LOCAL-00075" summary="Groeiende Heg">
+      <created>1606228385638</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1606228385638</updated>
+    </task>
+    <task id="LOCAL-00076" summary="PraktijkOpdrachtH13 de boomgaard. 2 rijen van 5 bomen">
+      <created>1606292724605</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1606292724605</updated>
+    </task>
+    <task id="LOCAL-00077" summary="Bij deze code worden de kaarten in de source geshuffled maar de namen zoals klaver 3 en harten 9 kan je niet zien omdat alle kaarten genummerd zijn van 1 tot 52. wel worden ze elke keer dat er gerunt wordt in een willekeurige orde getoond">
+      <created>1606303973076</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1606303973076</updated>
+    </task>
+    <task id="LOCAL-00078" summary="ik heb nu de code van een ander geprobeerd om te kijken wat het doet, helaas geen resultaat......&#10;daarnaast zitten er een hoop errors in.">
+      <created>1606307426364</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1606307426364</updated>
+    </task>
+    <task id="LOCAL-00079" summary="CHAOSSSSSS">
+      <created>1606320019556</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1606320019556</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="experiment3 de tekstvakken zijn wel te zien maar ik ben geen steek wijzer geworden van het schrijven van de code" />
+    <MESSAGE value="experiment3 12.3: de tekstvakken zijn wel te zien maar ik ben geen steek wijzer geworden van het schrijven van de code" />
+    <MESSAGE value="opdr 12.3 experiment failed" />
+    <MESSAGE value="opdr 12.3 ascending order" />
+    <MESSAGE value="kleine aanpassing aan het programma" />
+    <MESSAGE value="opdr 12.4 bijna klaar" />
+    <MESSAGE value="opdr 12.4" />
+    <MESSAGE value="opdr124 index zoeken" />
+    <MESSAGE value="opdr 125 index in array zoeken" />
+    <MESSAGE value="opdr 12.6" />
+    <MESSAGE value="Praktijkopdracht H12 wat ik nu heb" />
+    <MESSAGE value="Praktijkopdracht H12 wat ik nu heb v2" />
+    <MESSAGE value="Praktijkopdracht H12 flinke vooruitgang gemaakt." />
+    <MESSAGE value="Opdr 13.1 een mooi begin is al een half eind" />
+    <MESSAGE value="Opdr 13.1 af" />
+    <MESSAGE value="Opdr 13.1 af kleine aanpassing" />
+    <MESSAGE value="Opdr132v2 bakstenen muur" />
+    <MESSAGE value="Opdr 141, kies een kaart" />
+    <MESSAGE value="Opdr 132 betonnen muur en bakstenen muur" />
+    <MESSAGE value="Groeiende Heg" />
+    <MESSAGE value="PraktijkOpdrachtH13 de boomgaard. 2 rijen van 5 bomen" />
+    <MESSAGE value="Bij deze code worden de kaarten in de source geshuffled maar de namen zoals klaver 3 en harten 9 kan je niet zien omdat alle kaarten genummerd zijn van 1 tot 52. wel worden ze elke keer dat er gerunt wordt in een willekeurige orde getoond" />
+    <MESSAGE value="ik heb nu de code van een ander geprobeerd om te kijken wat het doet, helaas geen resultaat......" />
+    <MESSAGE value="ik heb nu de code van een ander geprobeerd om te kijken wat het doet, helaas geen resultaat......&#10;daarnaast zitten er een hoop errors in." />
+    <MESSAGE value="CHAOSSSSSS" />
+    <option name="LAST_COMMIT_MESSAGE" value="CHAOSSSSSS" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="680" y="-882" key="#Inspections" timestamp="1605270842196">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="-1654" y="-62" key="#Inspections/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1600239789690" />
+    <state x="680" y="-882" key="#Inspections/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605270842196" />
+    <state x="552" y="-919" key="#Plugins" timestamp="1605269656458">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="552" y="-919" key="#Plugins/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605269656458" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599832936935">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1599832936935" />
+    <state x="651" y="179" key="#com.intellij.ide.util.MemberChooser" timestamp="1603020879669">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-1475" y="-34" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602763300844" />
+    <state x="651" y="179" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603020879669" />
+    <state x="690" y="-784" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1605089143598">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="690" y="-784" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605089143598" />
+    <state x="640" y="-824" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605269366786">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="640" y="-824" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605269366786" />
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603363210651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="551" y="307" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1603363210651" />
+    <state x="-1550" y="7" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1600497049954">
+      <screen x="-2560" y="-260" width="2560" height="1040" />
+    </state>
+    <state x="-1550" y="7" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1600497049954" />
+    <state x="690" y="-813" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1605629188845">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="690" y="-813" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605629188845" />
+    <state x="55" y="73" width="1426" height="679" key="DiffContextDialog" timestamp="1603020987667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-2468" y="-168" width="2376" height="856" key="DiffContextDialog/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1600672626758" />
+    <state x="55" y="73" width="1426" height="679" key="DiffContextDialog/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603020987667" />
+    <state x="-1500" y="1" key="FileChooserDialogImpl" timestamp="1602776395030">
+      <screen x="-2560" y="-260" width="2560" height="1040" />
+    </state>
+    <state x="-1500" y="1" key="FileChooserDialogImpl/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602776395030" />
+    <state width="1877" height="420" key="GridCell.Tab.0.bottom" timestamp="1607000244324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="849" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603704984938" />
+    <state width="1493" height="482" key="GridCell.Tab.0.bottom/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603022200351" />
+    <state width="1877" height="849" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603724547250" />
+    <state width="1493" height="648" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1603445974905" />
+    <state width="1493" height="648" key="GridCell.Tab.0.bottom/0.0.1536.824/0.1080.1920.1040@0.0.1536.824" timestamp="1603446110293" />
+    <state width="1493" height="260" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603368059814" />
+    <state width="1877" height="345" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1605966313012" />
+    <state width="1877" height="420" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607000244324" />
+    <state width="1877" height="420" key="GridCell.Tab.0.center" timestamp="1607000244324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="849" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603704984937" />
+    <state width="1493" height="482" key="GridCell.Tab.0.center/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603022200351" />
+    <state width="1877" height="849" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603724547250" />
+    <state width="1493" height="648" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1603445974904" />
+    <state width="1493" height="648" key="GridCell.Tab.0.center/0.0.1536.824/0.1080.1920.1040@0.0.1536.824" timestamp="1603446110293" />
+    <state width="1493" height="260" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1603368059814" />
+    <state width="1877" height="345" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="326" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1605966313012" />
+    <state width="1877" height="420" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607000244324" />
+    <state width="1877" height="420" key="GridCell.Tab.0.left" timestamp="1607000244324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="849" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603704984936" />
+    <state width="1493" height="482" key="GridCell.Tab.0.left/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603022200351" />
+    <state width="1877" height="849" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603724547249" />
+    <state width="1493" height="648" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1603445974904" />
+    <state width="1493" height="648" key="GridCell.Tab.0.left/0.0.1536.824/0.1080.1920.1040@0.0.1536.824" timestamp="1603446110292" />
+    <state width="1493" height="260" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1603368059813" />
+    <state width="1877" height="345" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="326" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1605966313011" />
+    <state width="1877" height="420" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607000244324" />
+    <state width="1877" height="420" key="GridCell.Tab.0.right" timestamp="1607000244324">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="849" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603704984937" />
+    <state width="1493" height="482" key="GridCell.Tab.0.right/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603022200351" />
+    <state width="1877" height="849" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603724547250" />
+    <state width="1493" height="648" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1603445974905" />
+    <state width="1493" height="648" key="GridCell.Tab.0.right/0.0.1536.824/0.1080.1920.1040@0.0.1536.824" timestamp="1603446110293" />
+    <state width="1493" height="260" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1603368059814" />
+    <state width="1877" height="345" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="326" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1605966313012" />
+    <state width="1877" height="420" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607000244324" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1606320044560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.bottom/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602248883276" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1601976798622" />
+    <state width="1493" height="260" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1603368059647" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606320044560" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1606320044560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.center/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602248883276" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1601976798622" />
+    <state width="1493" height="260" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1603368059647" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606320044560" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1606320044560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.left/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602248883276" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1601976798622" />
+    <state width="1493" height="260" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1603368059647" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606320044560" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1606320044560">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="2517" height="347" key="GridCell.Tab.1.right/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602248883276" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1601976798622" />
+    <state width="1493" height="260" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1603368059647" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978059168" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606320044560" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2" timestamp="1606320022271">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1958" y="-77" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603702141075" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603022106013" />
+    <state x="452" y="-897" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603816127173" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1603446028203" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1603367103364" />
+    <state x="452" y="-897" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605978041857" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1605712108608" />
+    <state x="452" y="183" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606320022271" />
+    <state x="-1463" y="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600496432968">
+      <screen x="-2560" y="-260" width="2560" height="1040" />
+    </state>
+    <state x="-1463" y="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1600496432968" />
+    <state x="470" y="256" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1606313579104">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="470" y="256" width="979" height="629" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1606313579104" />
+    <state x="0" y="0" width="1550" height="910" key="dock-window-1" timestamp="1603018586758">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="1550" height="910" key="dock-window-1/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602765910640" />
+    <state x="0" y="0" width="1550" height="910" key="dock-window-1/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603018586758" />
+    <state x="-1240" y="-233" width="1243" height="811" maximized="true" key="dock-window-2" timestamp="1603096915901">
+      <screen x="-2560" y="-260" width="2560" height="1040" />
+    </state>
+    <state x="-1863" y="-275" width="1550" height="910" maximized="true" key="dock-window-2/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1603096915901" />
+    <state x="-1240" y="-233" width="1243" height="811" key="dock-window-2/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603020618341" />
+    <state x="497" y="140" key="new project wizard" timestamp="1606893458893">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1898" y="-120" key="new project wizard/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602059911206" />
+    <state x="497" y="140" key="new project wizard/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1606893458893" />
+    <state x="702" y="-710" width="672" height="677" key="run.anything.popup" timestamp="1605977423418">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="-1624" y="110" width="672" height="677" key="run.anything.popup/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1602859354598" />
+    <state x="702" y="-710" width="672" height="677" key="run.anything.popup/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1605977423418" />
+    <state x="708" y="-855" width="840" height="680" key="search.everywhere.popup" timestamp="1604649394780">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="-1617" y="-35" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-2560.-260.2560.1040@-2560.-260.2560.1040" timestamp="1601908062549" />
+    <state x="566" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824/-2560.-260.2560.1040@0.0.1536.824" timestamp="1603018936476" />
+    <state x="708" y="-855" width="840" height="680" key="search.everywhere.popup/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1603442797998" />
+    <state x="708" y="-855" width="840" height="680" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1604649394780" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,6 +1,6 @@
 package h10;
 
-import java.applet.Applet;
+import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
 
@@ -28,7 +28,7 @@ public class Opdr102 extends Applet {
         g.drawString(tekst, 50, 45 );
         g.drawString(tekst2, 50, 90);
 
-        setBackground(new Color(110, 167, 36, 255));
+        setBackground(new Color(25, 210, 170, 255));
     }
 
     class VakListener implements ActionListener {

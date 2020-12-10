@@ -9,11 +9,11 @@ public class Opdr116 extends Applet {
 
     public void paint(Graphics g) {
         int teller;
-        int y = 0;
+        int y = 50;
 
-        for (teller = 2; teller < 15; teller++) {
+        for (teller = 0; teller < 15; teller++) {
             y += 10;
-            g.drawRoundRect(50, 50, y, y, 150, 150);
+            g.drawRoundRect(50, 50, y, y, 200, 200);
 
         }
     }

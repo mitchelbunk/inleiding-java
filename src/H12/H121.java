@@ -8,7 +8,7 @@ public class H121 extends Applet {
     double opteller, deler;
 
     public void init() {
-        getal = new double[10];
+        getal = new double[9];
         deler = getal.length;
         for (int teller = 0; teller < getal.length; teller++) {
             getal[teller] = 50 * teller + 50;
@@ -18,11 +18,9 @@ public class H121 extends Applet {
 
     public void paint(Graphics g) {
         g.drawString("Het gemiddelde is: " + opteller / deler, 50, 50);
-        g.drawString("" + getal[0], 50, 100);
-        g.drawString("" + getal[1], 50, 120);
 
         for (int indexNumber = 0, y = 70; indexNumber < getal.length; indexNumber++, y += 20){
-            g.drawString("Het volgende nummber os: " + getal[indexNumber], 50, y);
+            g.drawString("Het volgende nummber is: " + getal[indexNumber], 50, y);
         }
 
     }

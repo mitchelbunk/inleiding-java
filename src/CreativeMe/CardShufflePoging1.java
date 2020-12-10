@@ -3,7 +3,7 @@ package CreativeMe;
 import java.applet.Applet;
 import java.util.ArrayList;
 
-public class CardShuffle extends Applet {
+public class CardShufflePoging1 extends Applet {
     public static final int DECK_SIZE = 52;
 
     public static void main(String args[]) {

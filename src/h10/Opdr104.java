@@ -5,20 +5,20 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class Opdr104 extends Applet {
-    TextField tekstvakje1, tekstvakje2;
+    TextField tekstVakje1, tekstVakje2;
     Label label1;
-    String s, tekst1, tekst2, tekst3, tekst4, tekst5;
+    String tekst1, tekst2, tekst3, tekst4, tekst5;
     int maandNummer, jaartal;
 
     public void init() {
-        tekstvakje1 = new TextField("", 40);
-        tekstvakje1.addActionListener( new case1Listener());
+        tekstVakje1 = new TextField("", 40);
+        tekstVakje1.addActionListener( new Case1Listener());
         repaint();
 
         label1 = new Label("Type eerts het jaar onderin in en dan het maandnummer bovenin");
 
-        tekstvakje2 = new TextField("", 40);
-        tekstvakje2.addActionListener( new case2Listener());
+        tekstVakje2 = new TextField("", 40);
+        tekstVakje2.addActionListener( new Case2Listener());
         repaint();
 
 
@@ -31,8 +31,8 @@ public class Opdr104 extends Applet {
         add(label1);
 
 
-        add(tekstvakje1);
-        add(tekstvakje2);
+        add(tekstVakje1);
+        add(tekstVakje2);
 
     }
     public void paint(Graphics g){
@@ -44,8 +44,8 @@ public class Opdr104 extends Applet {
         g.drawString(tekst4, 50, 240);
 
 
-        tekstvakje1.setLocation(800, 40);
-        tekstvakje2.setLocation(800, 80);
+        tekstVakje1.setLocation(800, 40);
+        tekstVakje2.setLocation(800, 80);
 
         label1.setLocation(200, 40);
         label1.setSize(400, 50);
@@ -55,17 +55,27 @@ public class Opdr104 extends Applet {
 
 
     }
-    class case2Listener implements ActionListener {
+    class Case2Listener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            s = tekstvakje2.getText();
+            String s = tekstVakje2.getText();
             jaartal = Integer.parseInt( s);
 
             if ((jaartal % 4 == 0 && (!(jaartal % 100 == 0)) ||
                     jaartal % 400 == 0)) {
-                tekst4 = "" + jaartal + "is een schrikkeljaar";
+                tekst4 = "" + jaartal + " is een schrikkeljaar";
             }
             else {
                 tekst4 = ""+ jaartal + " is geen schrikkeljaar";
+            }
+            if (maandNummer == 2) {
+                tekst1 = "Februari";
+
+                if (jaartal % 4 == 0 && (!(jaartal % 100 == 0)) ||
+                        jaartal % 400 == 0) {
+                    tekst2 = "29 dagen";
+                } else {
+                    tekst2 = "28 dagen";
+                }
             }
 
             repaint();
@@ -73,9 +83,9 @@ public class Opdr104 extends Applet {
 
     }
 
-    class case1Listener implements ActionListener {
+    class Case1Listener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
-            s = tekstvakje1.getText();
+            String s = tekstVakje1.getText();
             maandNummer = Integer.parseInt(s);
 
 

@@ -8,9 +8,9 @@ public class opdr62 extends Applet {
 
     public void init() {
         uur = 60 * 60;
-        dag = (60 * 60) * 24;
-        week = ((60 * 60) * 24) * 7;
-        jaar = ((((60 * 60) * 24) * 7) * 52);
+        dag = uur * 24;
+        week = dag * 7;
+        jaar = week * 52;
     }
 
     public void paint(Graphics g) {

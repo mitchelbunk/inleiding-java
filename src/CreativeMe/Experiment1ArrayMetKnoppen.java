@@ -14,8 +14,8 @@ public class Experiment1ArrayMetKnoppen extends Applet {
     JPanel pl;
 
             Experiment1ArrayMetKnoppen() {
-        windowContent = new JPanel();
-        buttons = new JButton[10];
+                windowContent = new JPanel();
+                buttons = new JButton[10];
 
                 BorderLayout bl = new BorderLayout();
                 windowContent.setLayout(bl);
@@ -32,7 +32,7 @@ public class Experiment1ArrayMetKnoppen extends Applet {
                 buttonEqual = new JButton("=");
 
                 pl = new JPanel();
-                GridLayout gl = new GridLayout(4,3);
+                GridLayout gl = new GridLayout(4, 3);
                 pl.setLayout(gl);
 
                 for (int i = 0; i < 10; i++) {
@@ -51,8 +51,5 @@ public class Experiment1ArrayMetKnoppen extends Applet {
 
                 }
 
-//                public static void main(String[] args){
-//                    Experiment1ArrayMetKnoppen experiment1ArrayMetKnoppenxp = new Experiment1ArrayMetKnoppen();
-//                }
             }
 }

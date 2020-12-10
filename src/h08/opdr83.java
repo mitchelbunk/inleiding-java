@@ -16,7 +16,7 @@ public class opdr83 extends Applet {
 
     double btw;
 
-
+    int getal1;
 
 
 
@@ -34,23 +34,27 @@ public class opdr83 extends Applet {
 
         rekenknop.addActionListener(new Knop1Listener());
 
-        setBackground(Color.black);
+        setBackground(Color.gray);
 
 
         btw = 1.21;
 
+        getal1 = 16;
+
 
     }
 
-    public void paint(){
-        rekenknop.setLocation(20, 20);
+    public void paint(Graphics g){
+        rekenknop.setLocation(100, 20);
         rekenknop.setLabel("Ok");
-        rekenknop.setSize(300, 40);
+        rekenknop.setSize(40, 40);
 
         PrijsInclusiefBTW.setLocation(20, 150);
         PrijsInclusiefBTW.setSize(300, 40);
 
         prijsvakje.setLocation(20, 20);
+
+
 
 
 
@@ -71,3 +75,9 @@ public class opdr83 extends Applet {
 
     }
 }
+
+
+
+
+
+

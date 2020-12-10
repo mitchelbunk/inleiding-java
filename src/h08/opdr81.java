@@ -32,7 +32,7 @@ public class opdr81 extends Applet{
         add(voorbeeldTekstvak);
 
 
-        backgroundColor = (new Color(255, 255, 255, 255));
+        backgroundColor = (new Color(52, 194, 88, 255));
         setSize(400, 400);
 
 

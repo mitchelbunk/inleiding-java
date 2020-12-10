@@ -8,23 +8,18 @@ import java.awt.event.*;
 public class PraktijkOpdrachtH12 extends Applet {
     String [] telefoonnummer;
     String [] naam;
-    TextField naamvak;
-    TextField nummervak;
-    Button knop, overzichtKnop;
+    TextField naamvak, nummervak;
+    Button knop = new Button();
     int teller;
+    boolean volleArray = false;
 
 
 
 
 
     public void init() {
-        knop = new Button("OK");
         add(knop);
         knop.addActionListener(new KnopListener1());
-
-        overzichtKnop = new Button("telefoonlijst");
-        add(overzichtKnop);
-        overzichtKnop.addActionListener(new KnopListener2());
 
         naamvak = new TextField("", 20);
         add(naamvak);
@@ -35,12 +30,9 @@ public class PraktijkOpdrachtH12 extends Applet {
 
 
         naam = new String[10];
-
         telefoonnummer = new String[10];
 
         teller = 0;
-
-
     }
 
 
@@ -50,10 +42,14 @@ public class PraktijkOpdrachtH12 extends Applet {
         naamvak.setLocation(50, 100);
         nummervak.setLocation(250, 100);
 
+
         setSize(500, 600);
-        for (int teller = 0; teller < naam.length; teller++) {
 
 
+        if (volleArray){
+            for (int i = 0; i < 10; i++) {
+                g.drawString("" + naam[i] + telefoonnummer[i], 75, 25 * i + 150);
+            }
         }
 
 
@@ -61,20 +57,17 @@ public class PraktijkOpdrachtH12 extends Applet {
 
     class KnopListener1 implements ActionListener{
         public void actionPerformed( ActionEvent e) {
-          //  for (int teller = 0; teller < 9; teller++) {
-
-                 naam[teller] = naamvak.getText();
-                telefoonnummer[teller] = nummervak.getText();
-                System.out.println(naam[teller]);
-          //  }
-        }
-    }
-    class KnopListener2 implements ActionListener{
-        public void actionPerformed(ActionEvent e) {
-        //print array via loop
-
-            //for 0-9
-            //prntln naam lcatie 50,100+25xteller; print nummer locatie 250,100+25xteller
+            if (teller >= 10){
+                volleArray = true;
+            }
+            else{
+                String s = "Jantje                                                                             ";
+                String t = "0618327648";
+                naam[teller] = s;
+                telefoonnummer[teller] = String.valueOf(Integer.parseInt(t));
+                teller++;
+            }
+            repaint();
         }
     }
 }

@@ -5,30 +5,23 @@ import java.awt.*;
 import java.applet.*;
 
 public class opdr52 extends Applet {
-    Color achtergrondkleur;
-    Color hlijnen;
-    Color vlijnen;
-    Color cijfersEnWoorden;
-    Color Valerie;
-    Color Jeroen;
-    Color Hans;
-    int paalbreedte;
-    int hans;
-    int jeroen;
-    int valerie;
+    Color achtergrondkleur, hlijnen, vlijnen, cijfersEnWoorden, Valerie, Jeroen, Hans;
+
+    int paalbreedte, hansGewicht, jeroenGewicht, valerieGewicht;
+
 
     public void init(){
         achtergrondkleur = Color.LIGHT_GRAY;
         hlijnen = Color.BLUE;
-        vlijnen = Color.WHITE;
+        vlijnen = Color.LIGHT_GRAY;
         cijfersEnWoorden = Color.WHITE;
         Valerie = Color.GREEN;
         Jeroen = Color.RED;
         Hans = Color.YELLOW;
         paalbreedte = 25;
-        hans = 400;
-        jeroen = 500;
-        valerie = 200;
+        hansGewicht = 400;
+        jeroenGewicht = 500;
+        valerieGewicht = 200;
     }
 
     public void paint(Graphics g) {
@@ -37,7 +30,7 @@ public class opdr52 extends Applet {
 
         g.setColor(Color.GRAY);
         g.drawRect(100, 200, 700, 600);
-        g.setColor(hlijnen);
+        g.setColor(vlijnen);
         g.drawRect(150, 250, 650, 500);
         g.drawRect(200, 300, 600, 400);
         g.drawRect(250, 350, 550, 300);
@@ -48,6 +41,9 @@ public class opdr52 extends Applet {
         g.drawLine(75, 200, 100, 200);
 
         g.drawLine(700, 100, 700, 100);
+
+        g.setColor(Color.blue);
+        g.drawLine(800, 200, 800, 800);
 
         g.setColor(hlijnen);
         g.drawLine(70, 800, 800, 800);
@@ -86,15 +82,15 @@ public class opdr52 extends Applet {
         g.drawLine(95, 800, 800, 800);
 
         g.setColor(Valerie);
-        g.fillRect(250, 600, paalbreedte, valerie);
+        g.fillRect(250, 600, paalbreedte, valerieGewicht);
         g.drawString("Valerie",250, 825);
 
         g.setColor(Jeroen);
-        g.fillRect(450, 300, paalbreedte, jeroen);
+        g.fillRect(450, 300, paalbreedte, jeroenGewicht);
         g.drawString("Jeroen",450, 825);
 
         g.setColor(Hans);
-        g.fillRect(650, 400, paalbreedte, hans);
+        g.fillRect(650, 400, paalbreedte, hansGewicht);
         g.drawString("Hans",650, 825);
 
     }

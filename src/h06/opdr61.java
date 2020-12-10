@@ -6,7 +6,6 @@ import java.applet.*;
 public class opdr61 extends Applet{
     int a;
     int b;
-    int c;
     int uitkomst;
 
     public void init() {

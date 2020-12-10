@@ -10,7 +10,7 @@ public class Opdr126 extends Applet {
     double[] salaris = {100.0, 200.0, 500.0, 400.0, 300.0, 300.0, 500.0};
     int getal;
     int aantalGevonden;
-    TextField tekstvak1;
+    TextField tekstvak1 , tekstvak2;
     Button knop;
 
     @Override

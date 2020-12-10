@@ -1,16 +1,16 @@
 package h11;
 
-import java.applet.Applet;
+import java.applet.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
+
 
 public class PraktijkOpdrachtH11 extends Applet {
     int x = 50;
     private int y = 30;
     private int tafel = 3;
     private TextField tf;
-    private Font font = new Font("default", Font.BOLD, 20);
+    private Font font = new Font("default", Font.ITALIC, 20);
     private Boolean aanuit;
 
     @Override
@@ -59,7 +59,7 @@ public class PraktijkOpdrachtH11 extends Applet {
         super.paint(g);
 
         if (aanuit) {
-            for (int teller=1; teller <= 10; teller++) {
+            for (int teller=1; teller <= 20; teller++) {
                 y += 20;
 
 

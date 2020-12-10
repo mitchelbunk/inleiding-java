@@ -2,13 +2,12 @@ package H12;
 
 import java.applet.Applet;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.util.*;
 
-public class opdr123 extends Applet {
+public class Opdr123 extends Applet {
 
-    TextField tekstvak [];
+    TextField [] tekstvak;
     Button knop;
 
     public void init() {
@@ -25,6 +24,7 @@ public class opdr123 extends Applet {
     }
 
     public void paint(Graphics g) {
+
 
     }
 

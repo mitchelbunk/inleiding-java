@@ -10,13 +10,13 @@ public class Opdr122 extends Applet {
     @Override
     public void init() {
         knop = new int[25];
+
         for (int teller = 1; teller <= knop.length; teller++) {
             Button ok;
             ok = new Button("knop " + teller);
             add(ok);
         }
     }
-
     @Override
     public void paint(Graphics g) {
         setBackground(new Color(45, 191, 154, 255));
